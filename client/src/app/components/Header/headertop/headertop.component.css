@@ -1,0 +1,28 @@
+.header-top {
+    background: #F8BF30;
+    overflow: hidden;
+    padding: 18px 0;
+}
+
+.header-social {
+    float: left;
+}
+
+.header-social a {
+    color: #fff;
+    margin-right: 35px;
+}
+
+.user-panel {
+    float: right;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.user-panel a {
+    color: #fff;
+    margin: 0 35px 0 0;
+}
+
+

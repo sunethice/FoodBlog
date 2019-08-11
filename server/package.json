@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "FoodTravelBlog server side implementation in nodeJS,expressJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "author": "Suneth Perera",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^4.1.1",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "gridfs-stream": "^1.1.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.6.9",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^3.3.0",
+    "nodemon": "^1.19.1"
+  }
+}

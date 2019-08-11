@@ -1,0 +1,20 @@
+.header-bottom {
+    padding: 38px 0;
+    position: relative;
+}
+
+.site-logo {
+    display: inline-block;
+}
+
+.navbar .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+
+.main-menu{
+    float: none !important;
+}
+
+.navlink-textcolor {
+    color: #474747;
+}
