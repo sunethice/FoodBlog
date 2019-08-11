@@ -66,6 +66,6 @@ export class WizComponent implements OnInit {
     check this on how to create a status for saving..
     https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/saving-data.html
     */
-    console.log(pData);
+    console.log(pData); //test
   }
 }
