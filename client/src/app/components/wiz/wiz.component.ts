@@ -35,6 +35,7 @@ export class WizComponent implements OnInit {
         //       return this.cpAutoSaveData( editor.getData() );
         //   }
         // },
+        filebrowserUploadUrl:'/wysiwyg/upload'
       })
       .then(editor => {
         const toolbarContainer = document.querySelector('.document-editor__toolbar');
@@ -66,6 +67,6 @@ export class WizComponent implements OnInit {
     check this on how to create a status for saving..
     https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/saving-data.html
     */
-    console.log(pData); //test
+    console.log(pData); 
   }
 }

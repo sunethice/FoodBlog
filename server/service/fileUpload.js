@@ -77,7 +77,7 @@ exports.cpWysiwygImgUpload = function (req, res, next) {
         if (err) {
             res.send(err);
         }
-        res.send( {
+        res.send({
             "status":true, 
             "originalName": req.file.originalname, 
             "generatedName":  req.file.filename.substr(0, req.file.filename.indexOf(".")+1), 

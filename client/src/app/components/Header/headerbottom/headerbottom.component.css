@@ -5,10 +5,25 @@
 
 .site-logo {
     display: inline-block;
+    width: 100%;
+    height: auto;
 }
 
 .navbar .navbar-toggle .icon-bar {
-    background-color: #000;
+    /* background-color: #000; */
+}
+
+.nav-bar{
+    background-color: #eaf0e6;
+}
+
+.navbar-toggler{
+    border: 1px solid #80867a !important;
+}
+
+.fa.fa-navicon {
+    color:#80867a;
+    font-size: 31px;
 }
 
 .main-menu{

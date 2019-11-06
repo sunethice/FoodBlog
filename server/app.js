@@ -37,7 +37,7 @@ require('./models/User');
 require('./models/Article');
 
 /*===============Connection===============*/
-const PORT = process.env.PORT || 5000; /* in production environment when we deploy the application to a service, it assigns
+const PORT = process.env.PORT || 4000; /* in production environment when we deploy the application to a service, it assigns
                                           a port to the environmental variable. but in development environment it is unavailable
                                           so that we need to give a port in that case.
                                         */

@@ -1,0 +1,9 @@
+<div class="row">
+    <div *ngFor="let card of cardData; let i=index" class="col-lg-4">
+        <img class="rounded-circle-img" src="{{card.cardImgSrc}}"
+            alt="Generic placeholder image" width="140" height="140">
+        <h2 class="card-header">{{card.cardHeader}}</h2>
+        <p>{{card.cardDesc}}</p>
+        <p><a class="learn-more text-large" href="#">Read article</a></p>
+    </div>
+</div><!-- /.row -->

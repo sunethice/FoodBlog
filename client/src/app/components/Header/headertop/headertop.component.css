@@ -1,5 +1,5 @@
 .header-top {
-    background: #F8BF30;
+    background: #57497c;/*#F8BF30;*/
     overflow: hidden;
     padding: 18px 0;
 }
@@ -15,7 +15,7 @@
 
 .user-panel {
     float: right;
-    color: #fff;
+    color: #fff;/*#80867a*/
     font-size: 1rem;
     font-weight: 400;
 }
